@@ -138,7 +138,7 @@ xasprintf(const char *format, ...)
     return s;
 }
 
-void
+size_t
 strlcpy(char *dst, const char *src, size_t size)
 {
     if (size > 0) {
